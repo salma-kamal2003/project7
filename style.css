@@ -11,15 +11,19 @@ body {
     align-items: center;
     justify-content: center;
     background: #f6f7fb;
+    background-image: url("./images/pexels-norma-mortenson-8456139.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 ::selection {
     color: #fff;
-    background-color: #7d2ae8;
+    background-color: #2ae8b2;
 }
 .container {
     padding: 2rem 7rem;
     border-radius: 14px;
-    background: #fff;
+    background: rgba(29, 28, 28, 0.866);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     width: 700px !important;
 }
@@ -49,6 +53,7 @@ body {
 }
 .result_images img {
     width: 100px;
+    
 }
 .user_result img {
     transform: rotate(90deg);
@@ -59,7 +64,7 @@ body {
 .result {
     text-align: center;
     font-size: 2rem;
-    color: #7d2ae8;
+    color: #2ae8b2;
     margin-top: 1.5rem;
 }
 
@@ -93,7 +98,7 @@ body {
     pointer-events: none;
 }
 .option_image p {
-    color: #7d2ae8;
+    color: #2ae8b2;
     font-size: 1.235rem;
     margin-top: 1rem;
     pointer-events: none;
